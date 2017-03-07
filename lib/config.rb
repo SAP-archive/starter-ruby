@@ -1,6 +1,6 @@
 module Config
   RECAST = {
-    token: '',
-    language: ''
+    token: ENV['RECAST_TOKEN'] || '',
+    language: ENV['RECAST_LANGUAGE'] || ''
   }.freeze
 end
