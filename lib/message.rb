@@ -8,7 +8,7 @@ def reply_message(message)
 
   request = RecastAI::Request.new(Config::RECAST[:token])
 
-  result = request.request.text_converse(text, sender_id)
+  result = request.converse_text(text, sender_id)
 
   result.replies.each do |reply|
     message.addReply(type: 'text', content: reply)
