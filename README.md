@@ -43,7 +43,7 @@ language: ''
 port: 5000
 ```
 
-You will be able to override those environment variables via the command line.
+This configuration will be loaded as environment variables thanks to `figaro`, this means that you will be able to override them via the command line.
 
 To complete your Recast.AI `token` and your `language`:
 
