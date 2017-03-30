@@ -5,7 +5,7 @@ require 'sinatra'
 
 require_relative 'lib/bot'
 
-set :port, ENV['port']
+set :port, ENV['PORT']
 
 post '/' do
   bot(request)

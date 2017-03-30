@@ -38,9 +38,9 @@ Create a `application.yml` in the `config/` folder at the root of your project.
 Copy paste the following configuration:
 
 ```yaml
-request_token: ''
-language: ''
-port: 5000
+REQUEST_TOKEN: ''
+LANGUAGE: ''
+PORT: 5000
 ```
 
 This configuration will be loaded as environment variables thanks to `figaro`, this means that you will be able to override them via the command line.

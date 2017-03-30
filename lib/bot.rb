@@ -3,8 +3,8 @@
 require 'recastai'
 
 def bot(payload)
-  connect = RecastAI::Connect.new(ENV['request_token'], ENV['language'])
-  request = RecastAI::Request.new(ENV['request_token'])
+  connect = RecastAI::Connect.new(ENV['REQUEST_TOKEN'], ENV['LANGUAGE'])
+  request = RecastAI::Request.new(ENV['REQUEST_TOKEN'])
 
   connect.handle_message(payload) do |message|
     response = request.converse_text(message.content, conversation_token: message.sender_id)
