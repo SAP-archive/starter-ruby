@@ -70,10 +70,10 @@ To complete your Recast.AI `token` and your `language`:
 
 Code | Documentation
 ------------ | -------------
-Receiving messages | [The Recast.AI SDK](https://github.com/RecastAI/SDK-Ruby/wiki/03---Receive-and-send-messages)
-Sending messages | [The Recast.AI SDK](https://github.com/RecastAI/SDK-Ruby/wiki/03---Receive-and-send-messages)
-Rich messaging | [Messages payloads](https:github.com/RecastAI/SDK-Ruby/wiki/04---Message-payload)
-Manage the conversation | [The Recast.AI SDK](https://github.com/RecastAI/SDK-Ruby/wiki/02---Manage-conversation)
+Receiving messages | [The Recast.AI SDK](https://github.com/RecastAI/SDK-Ruby/wiki/03-Receive-and-send-messages)
+Sending messages | [The Recast.AI SDK](https://github.com/RecastAI/SDK-Ruby/wiki/03-Receive-and-send-messages)
+Rich messaging | [Messages payloads](https://github.com/RecastAI/SDK-Ruby/wiki/04-Message-payload)
+Manage the conversation | [The Recast.AI SDK](https://github.com/RecastAI/SDK-Ruby/wiki/02-Manage-conversation)
 
 
 ## More
