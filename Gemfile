@@ -1,12 +1,7 @@
-source 'https://rubygems.org'
+# frozen_string_literal: true
 
-group :default do
-  # Server
-  gem 'sinatra', '~> 1.4'
+source "https://rubygems.org"
 
-  # Configuration
-  gem 'figaro', '~> 1.1'
+git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
 
-  # APIs
-  gem 'RecastAI', '~> 3.0'
-end
+gem "RecastAI", "~> 3.1"

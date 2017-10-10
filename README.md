@@ -30,20 +30,17 @@ Then, install the dependencies:
 bundle
 ```
 
+#### Fill the config file
 
-#### Create the config file
+Fill the `config.rb` at the root of your project with your Recast token and (optionally) the language and the port you want to use.
 
-Create a `application.yml` in the `config/` folder at the root of your project.
-
-Copy paste the following configuration:
-
-```yaml
-REQUEST_TOKEN: ''
-LANGUAGE: ''
-PORT: 5000
+```ruby
+ENV['REQUEST_TOKEN'] ||= 'YOUR_TOKEN'
+ENV['LANGUAGE'] ||= nil
+ENV['PORT'] ||= '5000'
 ```
 
-This configuration will be loaded as environment variables thanks to `figaro`, this means that you will be able to override them via the command line.
+This configuration will be loaded by the `bot.rb` file, this means that you will be able to override them via the command line.
 
 To complete your Recast.AI `token` and your `language`:
 
@@ -55,7 +52,7 @@ To complete your Recast.AI `token` and your `language`:
 
 #### Run locally
 
-`bundle exec rackup`
+`ruby bot.rb`
 
 > **Note:** Next steps, only if you have connected your bot to channels, using the Bot Connector tool
 
