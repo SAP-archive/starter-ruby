@@ -40,7 +40,7 @@ ENV['LANGUAGE'] ||= nil
 ENV['PORT'] ||= '5000'
 ```
 
-This configuration will be loaded by the `bot.rb` file, this means that you will be able to override them via the command line.
+This configuration will be loaded by the `bot.rb` file in case they are not already present in the environment.
 
 To complete your Recast.AI `token` and your `language`:
 
