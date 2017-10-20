@@ -1,12 +1,5 @@
 source 'https://rubygems.org'
 
-group :default do
-  # Server
-  gem 'sinatra', '~> 1.4'
+gem 'RecastAI', '~> 3.1'
 
-  # Configuration
-  gem 'figaro', '~> 1.1'
-
-  # APIs
-  gem 'RecastAI', '~> 3.0'
-end
+gem 'sinatra', '~> 2.0'

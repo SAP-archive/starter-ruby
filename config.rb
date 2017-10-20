@@ -1,0 +1,3 @@
+ENV['REQUEST_TOKEN'] ||= 'fcb90cf73d8e46de6e75983aa971f76c'
+ENV['LANGUAGE'] ||= ''
+ENV['PORT'] ||= '5000'
